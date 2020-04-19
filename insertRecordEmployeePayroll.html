@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"
+	</head>
+
+	<body>
+		<nav>
+			<a href="insertRecord.html">Insert Records</a>
+			<a href="showRecord.html">Show Records</a>
+			<a href="updateRecord.html">Update Records</a>
+			<a href="deleteRecord.html">Delete Records</a>
+		</nav>
+		<h1>Employee Payroll Registration</h1>
+		<form action="insertEmployeePayroll.php" method="POST">
+			
+			<label for="bankName">Enter Bank Name</label>
+			<input type="text" name="bankName">
+			<br>
+
+			<label for="payrollEmp">Enter Payout Info</lable>
+			<select name="payrollEmp">
+				<option value="DD">Direct Deposit</option>
+				<option value="Check">Check</option>
+			</select>
+			<br>
+			
+			<label for="bankNumber">Enter Bank Number</label>
+			<input type="number" name="bankNumber">
+			<br>
+
+			<label for="empID">Enter Employee ID</label>
+			<input type="number" name="empID">
+			<br>
+
+			<input type="submit" name="insertRecordEmployeePayroll" value="Submit">
+		</form>
+
+	</body>
+
+</html>

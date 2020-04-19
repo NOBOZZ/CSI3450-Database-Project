@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<nav>
+			<a href="insertRecord.html">Insert Records</a>
+			<a href="showRecord.html">Show Records</a>
+			<a href="updateRecord.html">Update Records</a>
+			<a href="deleteRecord.html">Delete Records</a>
+		</nav>
+		<h1>Enter Accountant ID to remove from system</h1>
+		<form action="deleteRecordAccountant.php" method="POST">
+			<label for="accID">Enter Accountant ID</label>
+			<input type="number" name="accID">
+			<br>
+			<input type="submit" name="deleteRecordAccountant" value="Delete">
+		</form>
+
+    </body>
+    
+</html>

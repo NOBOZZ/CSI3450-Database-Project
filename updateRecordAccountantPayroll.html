@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"
+	</head>
+
+	<body>
+		<nav>
+			<a href="insertRecord.html">Insert Records</a>
+			<a href="showRecord.html">Show Records</a>
+			<a href="updateRecord.html">Update Records</a>
+			<a href="deleteRecord.html">Delete Records</a>
+		</nav>
+		<h1>Accountant Payroll Update</h1>
+		<form action="updateAccountantPayroll.php" method="POST">
+
+			<label for="bankName">Enter Bank Name</label>
+			<input type="text" name="bankName">
+			<br>
+
+			<label for="payrollAcc">Enter Payout Info</lable>
+			<select name="payrollAcc">
+				<option value="DD">Direct Deposit</option>
+				<option value="Check">Check</option>
+			</select>
+			<br>
+
+			<label for="bankNumber">Enter Bank Number</label>
+			<input type="number" name="bankNumber">
+			<br>
+
+			<label for="accID">Enter Accountant ID</label>
+			<input type="number" name="accID">
+			<br>
+			
+			<input type="submit" name="updateRecordAccountantPayroll" value="Submit">
+		</form>
+
+	</body>
+
+</html>

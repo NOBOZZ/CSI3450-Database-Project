@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<nav>
+			<a href="insertRecord.html">Insert Records</a>
+			<a href="showRecord.html">Show Records</a>
+			<a href="updateRecord.html">Update Records</a>
+			<a href="deleteRecord.html">Delete Records</a>
+		</nav>
+		<h1>Accountant Registration</h1>
+		<form action="insertAccountant.php" method="POST">
+			<label for="accFname">Enter First Name</label>
+			<input type="text" name="accFname">
+			<br>
+			<label for="accLname">Enter Last Name</label>
+			<input type="text" name="accLname">
+			<br>
+			<label for="accDOB">Enter Date of Birth</label>
+			<input type="date" name="accDOB">
+			<br>
+			<label for="accPNumber">Enter Phone Number</label>
+			<input type="number" name="accPNumber">
+			<br>
+			<label for="accEmail">Enter Email</label>
+			<input type="email" name="accEmail">
+			<br>
+			<label for="accSSN">Enter Social Secruity Number</label>
+			<input type="number" name="accSSN">
+			<br>
+			<label for="deptID">Enter the Accountant Department ID</label>
+			<input type="number" name="deptID">
+			<br>
+			<input type="submit" name="insertRecordAccountant" value="Submit">
+		</form>
+
+    </body>
+    
+</html>

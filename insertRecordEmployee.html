@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"
+	</head>
+
+	<body>
+		<nav>
+			<a href="insertRecord.html">Insert Records</a>
+			<a href="showRecord.html">Show Records</a>
+			<a href="updateRecord.html">Update Records</a>
+			<a href="deleteRecord.html">Delete Records</a>
+		</nav>
+		<h1>Employee Registration</h1>
+		<form action="insertEmployee.php" method="POST">
+			<label for="empFname">Enter First Name</label>
+			<input type="text" name="empFname">
+			<br>
+			<label for="empLname">Enter Last Name</label>
+			<input type="text" name="empLname">
+			<br>
+			<label for="empDOB">Enter Date of Birth</label>
+			<input type="date" name="empDOB">
+			<br>
+			<label for="empPNumber">Enter Phone Number</label>
+			<input type="number" name="empPNumber">
+			<br>
+			<label for="empEmail">Enter Email</label>
+			<input type="email" name="empEmail">
+			<br>
+			<label for="empSSN">Enter Social Secruity Number</label>
+			<input type="number" name="empSSN">
+			<br>
+			<label for="EdeptID">Enter the Employee Department ID</label>
+			<input type="number" name="deptID">
+			<br>
+			<input type="submit" name="insertRecordEmployee" value="Submit">
+		</form>
+
+	</body>
+
+</html>
